@@ -183,7 +183,7 @@ public class MailUserBean {
 				props = new Properties();
 			}
 			//props.setProperty("mail.imap.socketFactory.fallback", "false");
-			//props.setProperty("mail.imap.starttls.enable", "false");
+			//props.setProperty("mail.imap.starttls.enable", "true");
 			
 			props.put("mail.transport.protocol", "smtp");
 			props.put("mail.smtp.host", this.getHostname());
@@ -195,7 +195,6 @@ public class MailUserBean {
 			
 //			javax.mail.Authenticator authenticator = new javax.mail.Authenticator() {
 //				protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
-//					//return new javax.mail.PasswordAuthentication(	"usemodj@gmail.com", "qkfkathfl");
 //					return new javax.mail.PasswordAuthentication(	getUsername(), getPassword());
 //				}
 //			};
