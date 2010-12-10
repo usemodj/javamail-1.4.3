@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="javamail-1.4.3">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/taglib"/>
+        <property name="context-root" value="javamail-1.4.3"/>
+        <property name="java-output-path" value="/javamail-1.4.3/build/classes"/>
+    </wb-module>
+</project-modules>
